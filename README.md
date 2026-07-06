@@ -1,97 +1,106 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+🍔 Food Ordering App
 
-# Getting Started
+A modern React Native food ordering application that allows users to browse food items, customize burgers, manage their cart, make secure payments, and track order history through a clean and user-friendly interface.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+📱 Features
+User Profile
+View and edit profile information
+Update profile picture
+Save payment details
+Food Menu
+Browse multiple food categories
+View food item details
+Search for food items
+Custom Burger
+Create your own burger
+Choose ingredients and customize your order
+Cart Management
+Add items to cart
+Update item quantity
+Remove items from cart
+View total price
+Payment
+Secure payment integration using Razorpay
+Payment success and failure screens
+Order History
+View previously placed orders
+Display order date and time
+Show order status
+View ordered items with images
+User Interface
+Responsive design
+Smooth navigation
+Attractive food cards
+Floating navigation buttons
+🛠️ Technologies Used
+React Native
+TypeScript
+React Navigation
+React Hooks
+Razorpay Payment Gateway
+Android Studio
+Visual Studio Code
+📂 Project Structure
+Food_app/
+│
+├── android/
+├── assets/
+│   ├── images/
+│   └── icons/
+├── Components/
+├── Screens/
+├── Navigation/
+├── Context/
+├── App.tsx
+├── package.json
+└── README.md
+🚀 Getting Started
+Prerequisites
+Node.js
+React Native CLI
+Android Studio
+Java JDK
+Git
+Installation
 
-## Step 1: Start Metro
+Clone the repository:
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+git clone https://github.com/ajairathinamdatametron/Food_app.git
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Navigate to the project folder:
 
-```sh
-# Using npm
-npm start
+cd Food_app
 
-# OR using Yarn
-yarn start
-```
+Install dependencies:
 
-## Step 2: Build and run your app
+npm install
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+Start the Metro Bundler:
 
-### Android
+npx react-native start
 
-```sh
-# Using npm
-npm run android
+Run the Android application:
 
-# OR using Yarn
-yarn android
-```
+npx react-native run-android
+📸 Screens
+Splash Screen
+Home Screen
+Product Details
+Custom Burger
+Cart
+Payment Details
+Payment Success
+Payment Failure
+User Profile
+Edit Profile
+Order History
+Chat Screen
+📦 Dependencies
 
-### iOS
+Some major libraries used in this project include:
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+React Native
+React Navigation
+React Native Razorpay
+React Native Vector Icons
+TypeScript
