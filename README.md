@@ -40,36 +40,6 @@ React Hooks
 Razorpay Payment Gateway
 Android Studio
 Visual Studio Code
-📂 Project Structure
-Food_app/
-│
-├── android/
-├── assets/
-│   ├── images/
-│   └── icons/
-├── Components/
-├── Screens/
-├── Navigation/
-├── Context/
-├── App.tsx
-├── package.json
-└── README.md
-🚀 Getting Started
-Prerequisites
-Node.js
-React Native CLI
-Android Studio
-Java JDK
-Git
-Installation
-
-Clone the repository:
-
-git clone https://github.com/ajairathinamdatametron/Food_app.git
-
-Navigate to the project folder:
-
-cd Food_app
 
 Install dependencies:
 
@@ -81,20 +51,7 @@ npx react-native start
 
 Run the Android application:
 
-npx react-native run-android
-📸 Screens
-Splash Screen
-Home Screen
-Product Details
-Custom Burger
-Cart
-Payment Details
-Payment Success
-Payment Failure
-User Profile
-Edit Profile
-Order History
-Chat Screen
+
 📦 Dependencies
 
 Some major libraries used in this project include:
